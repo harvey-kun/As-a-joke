@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.group-one {
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    justify-content: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Hitler_portrait_crop.jpg/220px-Hitler_portrait_crop.jpg");
+    background-size: cover; 
+    height: 420px;
+    gap: 40px; 
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    padding:10px 20px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boy {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    background-color: green;
+    padding: 10px 20px 10px 20px;
+}
+.bon {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    background-color: darkred;   
+}
+.bon, .boy{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: white;
+    gap: 20px;
+    margin: 370px 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 9px;
+    box-shadow: 2px 1px 1px 1px rgba(0, 0, 0, 1)
+}
+</style>
+<body>
+ <h1>Was Hitler Bad</h1>
+    <div class="group-one">
+                 <a class="bon" href="no.mp4">No</a>
+                 <a class="boy" href="yes.mp4">Yes</a>
+    </div>
+</body>
+</html>
